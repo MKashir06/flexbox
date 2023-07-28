@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>quiz</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 5px;
+      }
+
+      .mainContainer {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 100px;
+      }
+
+      .containerTop {
+        display: flex;
+        gap: 10px;
+      }
+
+      .box {
+        border: 4px solid black;
+        background-color: greenyellow;
+        height: 80px;
+      }
+
+      .box1,
+      .box3,
+      .box5,
+      .box7,
+      .box11,
+      .box13 {
+        flex: 1;
+      }
+
+      .box2 {
+        flex: 4;
+      }
+
+      .container2 {
+        display: flex;
+        gap: 10px;
+      }
+
+      .box4 {
+        flex: 5;
+      }
+
+      .box6 {
+        flex: 1.5;
+      }
+
+      .container3 {
+        display: flex;
+        gap: 10px;
+      }
+
+      .box8,
+      .box10,
+      .box12,
+      .box14 {
+        flex: 2;
+      }
+
+      .box9 {
+        flex: 6;
+      }
+
+      .containerBottom {
+        display: flex;
+        gap: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="mainContainer">
+      <div class="containerTop">
+        <div class="box box1"></div>
+        <div class="box box2"></div>
+        <div class="box box3"></div>
+      </div>
+      <div class="container2">
+        <div class="box box4"></div>
+        <div class="box box5"></div>
+        <div class="box box6"></div>
+      </div>
+
+      <div class="container3">
+        <div class="box box7"></div>
+        <div class="box box8"></div>
+        <div class="box box9"></div>
+      </div>
+
+      <div class="containerBottom">
+        <div class="box box10"></div>
+        <div class="box box11"></div>
+        <div class="box box12"></div>
+        <div class="box box13"></div>
+        <div class="box box14"></div>
+      </div>
+    </div>
+  </body>
+</html>
